@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "nunito";
+    src: url("/fonts/nunito-black.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "nunito";
+}
+
+body {
+    background-color: #020405;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+
+.light {
+    color: #bdbebe;
+}
+
+.text-2xl {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.center, .center-top, .flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.center-top {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.center-top.flex-col {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-bottom: 16px;
+    gap: 42px;
+}
+
+.footer img {
+    width: 24px;
+    aspect-ratio: 1 / 1;
+}
